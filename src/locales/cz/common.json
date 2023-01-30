@@ -1,0 +1,122 @@
+{
+  "submit": "Odeslat",
+  "logout": "Odhlásit se",
+  "login": "Přihlásit se",
+  "editPassword": "Změnit heslo",
+  "editUser": "Upravit profil",
+  "signup": "Registrovat",
+  "authRedirectText": "You are currently being authenticated on the Inospiner app. You will be redirected within a few seconds.",
+  "notification": {
+    "success": "V pořádku",
+    "error": "Chyba",
+    "app": {
+      "success": "Aplkace úspěšně nahrána",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "saving": {
+      "success": "Uložené",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "registration": {
+      "success": "Registrace proběhla v pořádku, zkontrolujte si svůj email ({{email}}) pro aktivaci uživatelského účtu ({{username}}).",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "activation": {
+      "success": "Uživatelský účet aktivován.",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "loading": {
+      "success": "Data nahrána",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "login": {
+      "success": "Úspěšné přihlášení",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "forgotten": {
+      "success": "Na Váš email byl odeslán email s odkazem na změnu hesla.",
+      "success2": "Vaše nové heslo bylo uloženo.",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "editPassword": {
+      "success": "Heslo bylo úspěšně změněno",
+      "error": "Vyskytla se chyba, zkuste prosím znovu."
+    },
+    "voucher": {
+      "success": "Voucher je platný.",
+      "error": "Voucher není platný."
+    },
+    "confirm": {
+      "title": "Potvrzení akce"
+    },
+    "errorDialog": {
+      "title": "Chyba"
+    },
+    "warningDialog": {
+      "title": "Upozornění"
+    },
+    "successDialog": {
+      "title": "Úspěch"
+    },
+    "infoDialog": {
+      "title": "Info"
+    }
+  },
+  "error": "Chyba",
+  "ok": "Ok",
+  "save": "Uložit",
+  "cancel": "Zrušit",
+  "open": "Otevřít",
+  "close": "Zavřít",
+  "back": "Zpět",
+  "reset": "Vymazat",
+  "repeat": "Opakovat",
+  "remove": "Remove",
+  "delete": "Delete",
+  "add": "Add",
+  "create": "Create",
+  "confirm": "Potvrdit",
+  "proceed": "Pokračovat",
+  "cell": "Cell",
+  "cells": "cells",
+  "provider": "Provider",
+  "providers": "Providers",
+  "owner": "Owner",
+  "owners": "Owners",
+  "or": "nebo",
+  "loading": "nahrávám",
+  "connecting": "připojuji se",
+  "api.error": {
+    "default": "Chyba spojení, zkuste prosím později.",
+    "userPreferences": "Nelze uložit nastavení tlačítek, zkuste prosím později.",
+    "userWorkspace": "Nelze uložit nastavení, zkuste prosím později.",
+    "unauthorized": "Uzivatel neni prihlasen."
+  },
+  "search": "Vyhledat",
+  "notifications": {
+    "search": "Vyhledat v notifikacích"
+  },
+  "application": {
+    "title": "Applications",
+    "hint": "Applications, select one.",
+    "numof": "number of Applications: {{num}}"
+  },
+  "errors": {
+    "uploadInput.file.empty": "Soubor není vyplněn",
+    "uploadInput.file.invalid": "Neplatný format souboru",
+    "uploadInput.fileContent.invalid": "Invalid file content format",
+    "uploadInput.file.numColumns": "Počet sloupců je nízký, prosím zkontrolujte že odďelovač je ';'",
+    "uploadInput.file.numLines": "Počet řádků je nízký, prosím zkontrolujte že odďelovač je  '\\r or \\r\\n'",
+    "uploadInput.file.line.invalid": "Počet buněk na řádek neodpovídá počtu sloupců. \"Řádek: {{index}}, {{line}}\"",
+    "uploadInput.file.cell.invalid": "Buňky nemají správný formát, nadbytečný prázdný prostor: ' '. \"Buňka: {{cellIndex}}, {{cell}},  Řádek: {{lineIndex}}, {{line}}\"",
+    "form": {
+      "required": "Pole je povinné",
+      "mustBeNumber": "Pole musí být číslo.",
+      "format.invalid": "Nesprávný formát.",
+      "voucher.pattern.format.invalid": "Nesprávný formát, povolená jsou 4 velká písmena, např.: ABCD",
+      "string.minLength": "Hodnota musí mít minimálně {{limit}} znaků.",
+      "string.maxLength": "Hodnota musí mít maximálně {{limit}} znaků.",
+      "name must be unique": "Name must be unique: {{value}}"
+    }
+  }
+}

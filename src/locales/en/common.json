@@ -1,0 +1,122 @@
+{
+  "submit": "Submit",
+  "logout": "Logout",
+  "login": "Sign in",
+  "editPassword": "Edit password",
+  "editUser": "Edit profile",
+  "signup": "Sign up",
+  "authRedirectText": "You are currently being authenticated on the Inospiner app. You will be redirected within a few seconds.",
+  "notification": {
+    "success": "Success",
+    "error": "Error",
+    "app": {
+      "success": "App loaded successfully",
+      "error": "Something went wrong, please try again."
+    },
+    "saving": {
+      "success": "Saved",
+      "error": "Something went wrong, please try again."
+    },
+    "registration": {
+      "success": "Sign up was successful, please check your email ({{email}}) to activate the user account ({{username}}).",
+      "error": "Something went wrong, please try again."
+    },
+    "activation": {
+      "success": "User account activated.",
+      "error": "Something went wrong, please try again."
+    },
+    "loading": {
+      "success": "Data loaded",
+      "error": "Something went wrong, please try again."
+    },
+    "login": {
+      "success": "Successful sign in",
+      "error": "Something went wrong, please try again."
+    },
+    "forgotten": {
+      "success": "Email with link to passwrod change sent.",
+      "success2": "Password successfully updated.",
+      "error": "Something went wrong, please try again."
+    },
+    "editPassword": {
+      "success": "Password successfully updated.",
+      "error": "Something went wrong, please try again."
+    },
+    "voucher": {
+      "success": "Voucher is valid.",
+      "error": "Voucher is invalid."
+    },
+    "confirm": {
+      "title": "Confirmation of action"
+    },
+    "errorDialog": {
+      "title": "Error"
+    },
+    "warningDialog": {
+      "title": "Warning"
+    },
+    "successDialog": {
+      "title": "Success"
+    },
+    "infoDialog": {
+      "title": "Info"
+    }
+  },
+  "error": "Error",
+  "ok": "Ok",
+  "save": "Save",
+  "cancel": "Cancel",
+  "open": "Open",
+  "close": "Close",
+  "back": "Back",
+  "reset": "Reset",
+  "repeat": "Repeat",
+  "remove": "Remove",
+  "delete": "Delete",
+  "add": "Add",
+  "create": "Create",
+  "confirm": "Confirm",
+  "proceed": "Proceed",
+  "cell": "Cell",
+  "cells": "cells",
+  "provider": "Provider",
+  "providers": "Providers",
+  "owner": "Owner",
+  "owners": "Owners",
+  "or": "or",
+  "loading": "loading",
+  "connecting": "connecting",
+  "api.error": {
+    "default": "Connection error, please try again later.",
+    "userPreferences": "Cannot save buttons layout, please try again later.",
+    "userWorkspace": "Cannot save workspace settings, please try again later.",
+    "unauthorized": "User not logged in."
+  },
+  "search": "Search",
+  "notifications": {
+    "search": "Find in notifications"
+  },
+  "application": {
+    "title": "Applications",
+    "hint": "Applications, select one.",
+    "numof": "number of Applications: {{num}}"
+  },
+  "errors": {
+    "uploadInput.file.empty": "File is required field",
+    "uploadInput.file.invalid": "Invalid file format",
+    "uploadInput.fileContent.invalid": "Invalid file content format",
+    "uploadInput.file.numColumns": "Number of columns is low, please check delimiter is ';'",
+    "uploadInput.file.numLines": "Number of lines is low, please check delimiter is '\r or \r\n'",
+    "uploadInput.file.line.invalid": "Line number of cells is not equal to the number of columns. \"Line: {{index}}, {{line}}\"",
+    "uploadInput.file.cell.invalid": "Cell not trimmed properly, redundat whitespace detected. \"Cell: {{cellIndex}}, {{cell}},  Line: {{lineIndex}}, {{line}}\"",
+    "form": {
+      "required": "Field is required",
+      "mustBeNumber": "Field must be a number.",
+      "format.invalid": "Format is invalid.",
+      "voucher.pattern.format.invalid": "Format is invalid, only 4 uppercase letters are allowed, e.g.: ABCD",
+      "string.minLength": "Password must be of at least {{limit}} characters.",
+      "string.maxLength": "Password must be of at most {{limit}} characters.",
+      "name must be unique": "Name must be unique: {{value}}"
+    }
+  }
+}
