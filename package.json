@@ -24,6 +24,11 @@
       "require": "./dist/hooks/src/react/index.js",
       "types": "./dist/types/src/react/index.d.ts"
     },
+    "./locales": {
+      "import": "./dist/hooks/esm/src/locales/index.js",
+      "require": "./dist/hooks/src/locales/index.js",
+      "types": "./dist/types/src/locales/index.d.ts"
+    },
     "./dist/*": "./dist/*",
     "./package.json": "./package.json"
   },
