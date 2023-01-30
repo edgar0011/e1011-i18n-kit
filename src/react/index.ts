@@ -2,6 +2,7 @@ import i18nextLib from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
 export { useTranslation } from 'react-i18next'
+export { useTranslations } from './hooks/useTranslations'
 
 const i18next = i18nextLib.use(initReactI18next)
 
@@ -27,3 +28,5 @@ export const getResourceBundle = (...args: any[]) => i18next.getResourceBundle(.
 
 export const getLanguage = () => i18next.language
 export const getLanguages = () => i18next.languages
+
+
