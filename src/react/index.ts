@@ -2,7 +2,7 @@ import i18nextLib from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
 export { useTranslation } from 'react-i18next'
-export { useTranslations } from './hooks/useTranslations'
+export * from './hooks/useTranslations'
 
 const i18next = i18nextLib.use(initReactI18next)
 
