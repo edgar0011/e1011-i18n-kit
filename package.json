@@ -15,18 +15,18 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/lib/esm/src/index.js",
+      "import": "./dist/lib/esm/index.js",
       "require": "./dist/lib/src/index.js",
       "types": "./dist/types/src/index.d.ts"
     },
     "./react": {
-      "import": "./dist/hooks/esm/src/react/index.js",
-      "require": "./dist/hooks/src/react/index.js",
+      "import": "./dist/react/esm/index.js",
+      "require": "./dist/react/index.js",
       "types": "./dist/types/src/react/index.d.ts"
     },
     "./locales": {
-      "import": "./dist/hooks/esm/src/locales/index.js",
-      "require": "./dist/hooks/src/locales/index.js",
+      "import": "./dist/locales/esm/index.js",
+      "require": "./dist/locales/index.js",
       "types": "./dist/types/src/locales/index.d.ts"
     },
     "./dist/*": "./dist/*",
