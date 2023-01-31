@@ -1,6 +1,6 @@
 {
   "name": "@e1011/i18n-kit",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "main": "./dist/lib/src/index.js",
   "module": "./dist/lib/esm/index.js",
   "sideEffects": false,
