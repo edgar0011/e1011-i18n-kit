@@ -2,6 +2,8 @@ import i18next from 'i18next'
 
 export default i18next
 
+export { TFunction } from 'i18next'
+
 export const { use, init, t } = i18next
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment

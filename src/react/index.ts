@@ -2,7 +2,6 @@ import i18nextLib from 'i18next'
 import { initReactI18next } from 'react-i18next'
 
 export { useTranslation } from 'react-i18next'
-export { TFunction } from 'i18next'
 export * from './hooks/useTranslations'
 
 
