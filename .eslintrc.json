@@ -29,13 +29,11 @@
     "react/static-property-placement": "off",
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
-    "no-useless-constructor": "off",
+    "no-useless-constructor": "off",    
+    "max-len": ["error", { "code": 120, "tabWidth": 2, "ignoreUrls": true, "ignoreStrings": true, "ignorePattern": "d=.*" }],
 
     // https://github.com/typescript-eslint/typescript-eslint/issues/455
     "@typescript-eslint/indent": "off",
-
-    // exceptions for Styled components
-    "react/no-unknown-property": ["error", { "ignore": ["css"] }],
 
     // exception for react functional arrow components
     "react/function-component-definition": ["error", {
@@ -44,6 +42,9 @@
     }]
   },
   "globals": {
-    "ReactHookFormRef": "readonly"
+    "React": "writable",
+    "EventListener": "readonly",
+    "JSX": "readonly",
+    "ESModule": "readonly"
   }
 }

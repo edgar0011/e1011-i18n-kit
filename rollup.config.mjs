@@ -1,11 +1,11 @@
-import babelPlugin from 'rollup-plugin-babel'
-import resolvePlugin from 'rollup-plugin-node-resolve'
-import commonjsPlugin from 'rollup-plugin-commonjs'
-import jsonPlugin from 'rollup-plugin-json'
+import babelPlugin from 'rollup-plugin-babel';
+import resolvePlugin from 'rollup-plugin-node-resolve';
+import commonjsPlugin from 'rollup-plugin-commonjs';
+import jsonPlugin from 'rollup-plugin-json';
 
 // import pkg from './package.json'
 
-const extensions = ['.js', '.jsx', '.ts', '.tsx']
+const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
 const commonConfig = {
   plugins: [
@@ -23,18 +23,15 @@ const commonConfig = {
   ],
   external: [
     'react',
-    'ramda',
-    'lodash-es',
     'i18next',
     'core-js',
     'react-i18next',
-    'styled-components',
     'sanitize-html',
   ],
   watch: {
     include: 'src/**',
   },
-}
+};
 
 export default [
   {
@@ -91,4 +88,4 @@ export default [
     ],
     ...commonConfig,
   },
-]
+];

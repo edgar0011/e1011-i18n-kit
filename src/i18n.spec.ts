@@ -4,7 +4,7 @@ import i18n, { init, t, getResource, getLanguage, getResourceBundle, addResource
 import { en } from 'locales/en'
 import { cz } from 'locales/cz'
 
-describe('i18n, i18next, react-i18nect', () => {
+describe('i18n, i18next, react-i18next', () => {
   beforeEach(() => {
     init({
       lng: 'en',

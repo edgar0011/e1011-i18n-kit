@@ -34,7 +34,7 @@
       "error": "Something went wrong, please try again."
     },
     "forgotten": {
-      "success": "Email with link to passwrod change sent.",
+      "success": "Email with link to password change sent.",
       "success2": "Password successfully updated.",
       "error": "Something went wrong, please try again."
     },
